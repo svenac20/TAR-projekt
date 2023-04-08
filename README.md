@@ -11,12 +11,43 @@ Attention-based LSTM for psychological stress detection from spoken language usi
 
 ## Dreaddit dataset
 
-Dataset is dated between January 1, 2017 and November 19,  2018
-Dataset of social media posts in 5 categories:
+Dataset is dated between January 1, 2017 and November 19, 2018
+Puts social media posts in 5 categories:
   1. Abuse
   2. Anxiety
   3. Financial
   4. PTSD
   5. Social
+
+Stress is defined as something negative (possitive stress isn't considered as stress in this case). Data was labelled using Amazon Mechanical Turk and each person is given a paragraph of **5 sentences** (to give some context about the situation so that the annotators can decide on the labelling of the given text)
+
+Dataset is devided in 2 subsets:
+  - train (2838), 51.6% labeled stresfull
+  - test(715), 52.4% labeled stresfull
+
+## Data analysis
+
+### **Domain**
+
+LIWC word list is used to measure the % of words from specific lists that appear in our categories.
+Word lists include 
+  - **"negemo"** (negative emotions),
+  - **"social"**,
+  - **"anxiety"**.
+
+We can clearly see the difference between the coverage of, for example, *negemo* word list in the financial and the anxiety category.
+
+High coverage of *anxiety* word list
+
+### **Label**
+
+Data is labelled:
+  - stressful - more first-person pronouns (self-focus)
+  - non-stressful - more social words (social support network)
+
+### **Agreement**
+
+## Results
+
 
 
