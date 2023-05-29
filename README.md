@@ -47,7 +47,26 @@ Data is labelled:
 
 ### **Agreement**
 
+Less lexical variety yields higher agreement between annotators
+
+### **Dataset features**
+
+Lexical features
+  - AVG, MAX, MIN scores for pleasantness, activation and imagery 
+  - sentiment score
+
+Syntactic features
+  - POS unigrams and bigrams
+  - Flesch-Kincaid Grade Level - istraziti
+  - Automated Readbility Index - istraziti
+
+Social media features
+  - UTC timestamp of post (not really useful)
+  - Ratio of upvotes/downvotes on post
+  - total number of comments
+
 ## Results
 
+Results
 
 
