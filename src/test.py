@@ -6,4 +6,7 @@ TEST_PATH = Path(__file__).parent.parent / 'dataset' / 'dreaddit-train.csv'
 
 csv = pd.read_csv(TRAIN_PATH)
 
-print(csv.size)
+
+# Data preprocessing
+
+print(csv.columns)
