@@ -1,11 +1,11 @@
 \begin{thebibliography}{}
 
-\bibitem[\protect\citename{Maguire}1976]{maguire-76}
-J.~Maguire.
-\newblock 1976.
-\newblock {\em A taxonomic and ecological study of the living and fossil
-  {Hystricidae} with particular reference to southern {Africa}}.
-\newblock Ph.d. diss., Department of Geology, University of the Witwatersrand,
-  Johannesburg.
+\bibitem[\protect\citename{Turcan and McKeown}2019]{dreaddit}
+Elsbeth Turcan and Kathy McKeown.
+\newblock 2019.
+\newblock {D}readdit: A {R}eddit dataset for stress analysis in social media.
+\newblock In {\em Proceedings of the Tenth International Workshop on Health
+  Text Mining and Information Analysis (LOUHI 2019)}, pages 97--107, Hong Kong,
+  November. Association for Computational Linguistics.
 
 \end{thebibliography}

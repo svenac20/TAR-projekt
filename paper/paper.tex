@@ -11,6 +11,7 @@
 \usepackage{booktabs}
 \usepackage{amsmath}
 \usepackage{amssymb}
+\usepackage{multirow}
 
 \title{Stress Analysis in Social Media}
 
@@ -39,11 +40,73 @@ This section is the introduction to your paper.
 \section{Related Work}
 
 In scientific papers, this section usually (but not necessarily) briefly describes the related research and what makes the presented approach different from it.
-Demonstration of citing~\citep{maguire-76}.
 
 \section{Dataset}
 
-A section that will be used to describe the dataset that was used in the research paper.
+The dataset that is used in this paper was introduced in a paper which collected posts from a social media webside called Reddit~\citep{dreaddit}.
+On that website users can create posts in communities which focus on specific topics called subreddits.
+
+The dataset consists of posts from subreddits where stressful topics are likely to be discussed in between January 1, 2017 and November 19, 2018.
+These subreddits fall into one of these categories:
+
+\begin{itemize}
+    \item \textbf{Social}: The posts from this category are from the subreddit called \verb|r/relationships|.
+        Posts from this subreddit talk about problems in a relationships, romantic or non-romantic.
+    \item \textbf{Abuse}: posts from this category describe topics related to abuse in relationships and users share their experiences and advices.
+        Subreddits that fall into this category are \verb|r/domesticviolence| and \verb|r/survivorofabuse|.
+    \item \textbf{Anxiety}: subreddits from this category are \verb|r/anxiety| and \verb|r/stress|.
+        Users in posts from this category talk about these mental illnesses, their symptoms, share advices and stories regarding these illnesses.
+    \item \textbf{PTSD}: Same as the Anxiety category, posts from this category talk about mental illness, but focus on Post-Traumatic Stress Disorder.
+        The only subreddit from this category is \verb|r/ptsd| and same as with posts from the Anxiety category, users share advices and stories and ask questions about the illness.
+    \item \textbf{Financial}: posts from subreddits that fall into this category talk about difficult financial situations, share stories about homelessness and other stressful financial topics.
+        Subreddits from this category are \verb|r/almosthomeless|, \verb|r/assistance|, \verb|r/food_pantry| and \verb|r/homeless|.
+\end{itemize}
+
+In the dataset there are in total 187,444 posts from these 10 subreddits.
+The distribution of these posts can be seen in the Table~\ref{tab:dataset-distribution}.
+
+\begin{table*}
+    \caption{Distribution of collected posts}
+    \label{tab:dataset-distribution}
+    \begin{center}
+        \begin{tabular}{|l|l|r|r|r|}
+            \hline
+            \textbf{Topic} & \textbf{Subreddit Name} & \textbf{Total Posts} & \textbf{Avg Tokens/Post} & \textbf{Labeled Segments}\\
+            \hline
+            Social                     & r/relationships    & 107,908 & 578 & 694 \\ \hline
+            \multirow{2}{*}{Abuse}     & r/domesticviolence & 1,529   & 365 & 388 \\
+                                       & r/survivorsofabuse & 1,372   & 444 & 315 \\ \hline
+            \multirow{2}{*}{Anxiety}   & r/anxiety          & 58,130  & 193 & 650 \\
+                                       & r/stress           & 1,078   & 107 & 78  \\ \hline
+            PTSD                       & r/ptsd             & 4,910   & 265 & 711 \\ \hline
+            \multirow{4}{*}{Financial} & r/almosthomeless   & 547     & 261 & 99  \\
+                                       & r/assistance       & 9,243   & 209 & 355 \\
+                                       & r/food\_pantry     & 343     & 187 & 43  \\
+                                       & r/homeless         & 2,384   & 143 & 220 \\ \hline
+        \end{tabular}
+    \end{center}
+\end{table*}
+
+\subsection{Data Annotation}
+
+A portion of the data was annotated using Amazon Mechanical Turk, a crowdsourcing marketplace that allows individuals to outsource jobs.
+
+Primary job for annotators was to determine if there was stress present in the sentence that they were presented.
+The definition for stress was taken from the Oxford English Dictionary states that stress is `a state of mental or emotional strain or tension resulting from adverse or demanding circumstance'.
+Each annotator first had to take a qualification test to ensure that they would label the sentences correctly.
+In the qualification test annotators were given instructions on how to correctly label post segments.
+
+After that, each annotator was given 5 segments which they had to annotate with one of the following labels: ``Stress'', ``Not Stress'' or ``Can't Tell''.
+In addition to the qualification test, each annotator was given one of the 50 `check questions' which were labeled by creators of the dataset.
+If they did not label these `check questions' correctly their annotations were not included in the final dataset.
+
+Since posts can often be longer, which would prove to be complicated for the annotators to label, they were divided into five-sentence chunks.
+Added bonus of this technique is that the data can be used to determine the specific location of stress in the post.
+
+In total, 3,553 labeled data points were collected out of which 39\% had perfect agreement.
+With 52.3\% of the data being labeled as stressful, the dataset is nearly perfectly balanced.
+Labeled data was split into two subsets: train and test subset.
+The train subset contains 2,838 data points and the test subset consists of 715 data points.
 
 \section{Baseline Models}
 

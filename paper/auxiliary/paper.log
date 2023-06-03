@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.25 (MiKTeX 23.4) (preloaded format=pdflatex 2023.4.21)  31 MAY 2023 23:59
+This is pdfTeX, Version 3.141592653-2.6-1.40.25 (MiKTeX 23.4) (preloaded format=pdflatex 2023.4.21)  3 JUN 2023 21:02
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -155,47 +155,54 @@ LaTeX Font Info:    Redeclaring math symbol \hbar on input line 98.
 LaTeX Font Info:    Overwriting math alphabet `\mathfrak' in version `bold'
 (Font)                  U/euf/m/n --> U/euf/b/n on input line 106.
 ))
+(D:\Programs\MiKTeX\tex/latex/multirow\multirow.sty
+Package: multirow 2021/03/15 v2.8 Span multiple rows of a table
+\multirow@colwidth=\skip54
+\multirow@cntb=\count275
+\multirow@dima=\skip55
+\bigstrutjot=\dimen165
+)
 LaTeX Font Info:    Trying to load font information for OT1+ptm on input line 3
-1.
+2.
 
 (D:\Programs\MiKTeX\tex/latex/psnfss\ot1ptm.fd
 File: ot1ptm.fd 2001/06/04 font definitions for OT1/ptm.
 )
 (D:\Programs\MiKTeX\tex/latex/l3backend\l3backend-pdftex.def
 File: l3backend-pdftex.def 2023-03-30 L3 backend support: PDF output (pdfTeX)
-\l__color_backend_stack_int=\count275
+\l__color_backend_stack_int=\count276
 \l__pdf_internal_box=\box53
 )
 (D:\Repos\TAR-projekt\paper\auxiliary\paper.aux)
 \openout1 = `paper.aux'.
 
-LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 31.
-LaTeX Font Info:    ... okay on input line 31.
-LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 31.
-LaTeX Font Info:    ... okay on input line 31.
-LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 31.
-LaTeX Font Info:    ... okay on input line 31.
-LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 31.
-LaTeX Font Info:    ... okay on input line 31.
-LaTeX Font Info:    Checking defaults for TS1/cmr/m/n on input line 31.
-LaTeX Font Info:    ... okay on input line 31.
-LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 31.
-LaTeX Font Info:    ... okay on input line 31.
-LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 31.
-LaTeX Font Info:    ... okay on input line 31.
+LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 32.
+LaTeX Font Info:    ... okay on input line 32.
+LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 32.
+LaTeX Font Info:    ... okay on input line 32.
+LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 32.
+LaTeX Font Info:    ... okay on input line 32.
+LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 32.
+LaTeX Font Info:    ... okay on input line 32.
+LaTeX Font Info:    Checking defaults for TS1/cmr/m/n on input line 32.
+LaTeX Font Info:    ... okay on input line 32.
+LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 32.
+LaTeX Font Info:    ... okay on input line 32.
+LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 32.
+LaTeX Font Info:    ... okay on input line 32.
 
 (D:\Programs\MiKTeX\tex/context/base/mkii\supp-pdf.mkii
 [Loading MPS to PDF converter (version 2006.09.02).]
-\scratchcounter=\count276
-\scratchdimen=\dimen165
+\scratchcounter=\count277
+\scratchdimen=\dimen166
 \scratchbox=\box54
-\nofMPsegments=\count277
-\nofMParguments=\count278
+\nofMPsegments=\count278
+\nofMParguments=\count279
 \everyMPshowfont=\toks24
-\MPscratchCnt=\count279
-\MPscratchDim=\dimen166
-\MPnumerator=\count280
-\makeMPintoPDFobject=\count281
+\MPscratchCnt=\count280
+\MPscratchDim=\dimen167
+\MPnumerator=\count281
+\makeMPintoPDFobject=\count282
 \everyMPtoPDFconversion=\toks25
 ) (D:\Programs\MiKTeX\tex/latex/epstopdf-pkg\epstopdf-base.sty
 Package: epstopdf-base 2020-01-24 v2.11 Base part for package epstopdf
@@ -205,57 +212,97 @@ Package epstopdf-base Info: Redefining graphics rule for `.eps' on input line 4
 (D:\Programs\MiKTeX\tex/latex/00miktex\epstopdf-sys.cfg
 File: epstopdf-sys.cfg 2021/03/18 v2.0 Configuration of epstopdf for MiKTeX
 ))
-LaTeX Font Info:    Trying to load font information for U+msa on input line 33.
+LaTeX Font Info:    Trying to load font information for U+msa on input line 34.
 
 
 (D:\Programs\MiKTeX\tex/latex/amsfonts\umsa.fd
 File: umsa.fd 2013/01/14 v3.01 AMS symbols A
 )
-LaTeX Font Info:    Trying to load font information for U+msb on input line 33.
+LaTeX Font Info:    Trying to load font information for U+msb on input line 34.
 
 
 (D:\Programs\MiKTeX\tex/latex/amsfonts\umsb.fd
 File: umsb.fd 2013/01/14 v3.01 AMS symbols B
 )
 LaTeX Font Info:    Trying to load font information for OT1+pcr on input line 3
-3.
+4.
 
 (D:\Programs\MiKTeX\tex/latex/psnfss\ot1pcr.fd
 File: ot1pcr.fd 2001/06/04 font definitions for OT1/pcr.
 )
 LaTeX Font Info:    Trying to load font information for OMS+pcr on input line 3
-3.
+4.
 
 (D:\Programs\MiKTeX\tex/latex/psnfss\omspcr.fd
 File: omspcr.fd 
 )
 LaTeX Font Info:    Font shape `OMS/pcr/m/n' in size <10> not available
-(Font)              Font shape `OMS/cmsy/m/n' tried instead on input line 33.
+(Font)              Font shape `OMS/cmsy/m/n' tried instead on input line 34.
+LaTeX Font Info:    Trying to load font information for TS1+ptm on input line 5
+3.
 
-(D:\Repos\TAR-projekt\paper\auxiliary\paper.bbl) [1{C:/Users/lovro/AppData/Loca
-l/MiKTeX/fonts/map/pdftex/pdftex.map}{D:/Programs/MiKTeX/fonts/enc/dvips/base/8
-r.enc}
+(D:\Programs\MiKTeX\tex/latex/psnfss\ts1ptm.fd
+File: ts1ptm.fd 2001/06/04 font definitions for TS1/ptm.
+)
+Underfull \hbox (badness 1337) in paragraph at lines 55--57
+[]\OT1/ptm/b/n/10 Abuse\OT1/ptm/m/n/10 : posts from this cat-e-gory de-scribe t
+op-ics
+ []
+
+
+Underfull \hbox (badness 1460) in paragraph at lines 55--57
+\OT1/ptm/m/n/10 re-lated to abuse in re-la-tion-ships and users share
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 57--59
+[]\OT1/ptm/b/n/10 Anxiety\OT1/ptm/m/n/10 : sub-red-dits from this cat-e-gory ar
+e
+ []
+
+
+Underfull \hbox (badness 2980) in paragraph at lines 57--59
+[][]\OT1/pcr/m/n/10 r/anxiety []\OT1/ptm/m/n/10 and [][]\OT1/pcr/m/n/10 r/stres
+s[]\OT1/ptm/m/n/10 . Users in posts
+ []
+
+
+Underfull \hbox (badness 2941) in paragraph at lines 61--63
+[]\OT1/ptm/b/n/10 Financial\OT1/ptm/m/n/10 : posts from sub-red-dits that fall 
+into
+ []
+
+
+Underfull \hbox (badness 1910) in paragraph at lines 61--63
+\OT1/ptm/m/n/10 ful fi-nan-cial top-ics. Sub-red-dits from this cat-e-
+ []
+
+[1{C:/Users/lovro/AppData/Local/MiKTeX/fonts/map/pdftex/pdftex.map}{D:/Programs
+/MiKTeX/fonts/enc/dvips/base/8r.enc}
 
 
 
+]
+(D:\Repos\TAR-projekt\paper\auxiliary\paper.bbl) [2
 
-] (D:\Repos\TAR-projekt\paper\auxiliary\paper.aux) ) 
+]
+(D:\Repos\TAR-projekt\paper\auxiliary\paper.aux) ) 
 Here is how much of TeX's memory you used:
- 2792 strings out of 476331
- 41066 string characters out of 5799959
- 1856660 words of memory out of 5000000
- 23206 multiletter control sequences out of 15000+600000
- 525247 words of font info for 56 fonts, out of 8000000 for 9000
+ 2889 strings out of 476331
+ 42737 string characters out of 5799959
+ 1869660 words of memory out of 5000000
+ 23295 multiletter control sequences out of 15000+600000
+ 525561 words of font info for 57 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
- 57i,9n,62p,223b,332s stack positions out of 10000i,1000n,20000p,200000b,200000s
-<D:/Programs/MiKTeX/fonts/t
-ype1/public/amsfonts/cm/cmsy10.pfb><D:/Programs/MiKTeX/fonts/type1/urw/courier/
-ucrr8a.pfb><D:/Programs/MiKTeX/fonts/type1/urw/times/utmb8a.pfb><D:/Programs/Mi
-KTeX/fonts/type1/urw/times/utmr8a.pfb><D:/Programs/MiKTeX/fonts/type1/urw/times
-/utmri8a.pfb>
-Output written on paper.pdf (1 page, 66480 bytes).
+ 57i,10n,62p,236b,332s stack positions out of 10000i,1000n,20000p,200000b,200000s
+<D:/Programs/MiKTeX/fonts/typ
+e1/public/amsfonts/cm/cmsy10.pfb><D:/Programs/MiKTeX/fonts/type1/urw/courier/uc
+rr8a.pfb><D:/Programs/MiKTeX/fonts/type1/urw/times/utmb8a.pfb><D:/Programs/MiKT
+eX/fonts/type1/urw/times/utmr8a.pfb><D:/Programs/MiKTeX/fonts/type1/urw/times/u
+tmri8a.pfb>
+Output written on paper.pdf (2 pages, 77566 bytes).
 PDF statistics:
- 32 PDF objects out of 1000 (max. 8388607)
+ 35 PDF objects out of 1000 (max. 8388607)
  0 named destinations out of 1000 (max. 500000)
  1 words of extra memory for PDF output out of 10000 (max. 10000000)
 
