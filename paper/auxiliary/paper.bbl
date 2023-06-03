@@ -1,11 +1,38 @@
 \begin{thebibliography}{}
 
-\bibitem[\protect\citename{Turcan and McKeown}2019]{dreaddit}
+\bibitem[\protect\citename{Devlin \bgroup et al.\egroup }2019]{devlin2019bert}
+Jacob Devlin, Ming-Wei Chang, Kenton Lee, and Kristina Toutanova.
+\newblock 2019.
+\newblock Bert: Pre-training of deep bidirectional transformers for language
+  understanding.
+
+\bibitem[\protect\citename{Mikolov \bgroup et al.\egroup
+  }2013]{mikolov2013efficient}
+Tomas Mikolov, Kai Chen, Greg Corrado, and Jeffrey Dean.
+\newblock 2013.
+\newblock Efficient estimation of word representations in vector space.
+
+\bibitem[\protect\citename{Sanh \bgroup et al.\egroup
+  }2020]{sanh2020distilbert}
+Victor Sanh, Lysandre Debut, Julien Chaumond, and Thomas Wolf.
+\newblock 2020.
+\newblock Distilbert, a distilled version of bert: smaller, faster, cheaper and
+  lighter.
+
+\bibitem[\protect\citename{Turcan and
+  McKeown}2019]{turcan-mckeown-2019-dreaddit}
 Elsbeth Turcan and Kathy McKeown.
 \newblock 2019.
 \newblock {D}readdit: A {R}eddit dataset for stress analysis in social media.
 \newblock In {\em Proceedings of the Tenth International Workshop on Health
   Text Mining and Information Analysis (LOUHI 2019)}, pages 97--107, Hong Kong,
   November. Association for Computational Linguistics.
+
+\bibitem[\protect\citename{Vaswani \bgroup et al.\egroup
+  }2017]{vaswani2017attention}
+Ashish Vaswani, Noam Shazeer, Niki Parmar, Jakob Uszkoreit, Llion Jones,
+  Aidan~N. Gomez, Lukasz Kaiser, and Illia Polosukhin.
+\newblock 2017.
+\newblock Attention is all you need.
 
 \end{thebibliography}

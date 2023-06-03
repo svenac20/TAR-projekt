@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.25 (MiKTeX 23.4) (preloaded format=pdflatex 2023.4.21)  3 JUN 2023 21:02
+This is pdfTeX, Version 3.141592653-2.6-1.40.25 (MiKTeX 23.4) (preloaded format=pdflatex 2023.4.21)  3 JUN 2023 21:09
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -162,8 +162,11 @@ Package: multirow 2021/03/15 v2.8 Span multiple rows of a table
 \multirow@dima=\skip55
 \bigstrutjot=\dimen165
 )
+(D:\Programs\MiKTeX\tex/latex/cleveref\cleveref.sty
+Package: cleveref 2018/03/27 v0.21.4 Intelligent cross-referencing
+)
 LaTeX Font Info:    Trying to load font information for OT1+ptm on input line 3
-2.
+3.
 
 (D:\Programs\MiKTeX\tex/latex/psnfss\ot1ptm.fd
 File: ot1ptm.fd 2001/06/04 font definitions for OT1/ptm.
@@ -176,20 +179,20 @@ File: l3backend-pdftex.def 2023-03-30 L3 backend support: PDF output (pdfTeX)
 (D:\Repos\TAR-projekt\paper\auxiliary\paper.aux)
 \openout1 = `paper.aux'.
 
-LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 32.
-LaTeX Font Info:    ... okay on input line 32.
-LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 32.
-LaTeX Font Info:    ... okay on input line 32.
-LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 32.
-LaTeX Font Info:    ... okay on input line 32.
-LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 32.
-LaTeX Font Info:    ... okay on input line 32.
-LaTeX Font Info:    Checking defaults for TS1/cmr/m/n on input line 32.
-LaTeX Font Info:    ... okay on input line 32.
-LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 32.
-LaTeX Font Info:    ... okay on input line 32.
-LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 32.
-LaTeX Font Info:    ... okay on input line 32.
+LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 33.
+LaTeX Font Info:    ... okay on input line 33.
+LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 33.
+LaTeX Font Info:    ... okay on input line 33.
+LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 33.
+LaTeX Font Info:    ... okay on input line 33.
+LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 33.
+LaTeX Font Info:    ... okay on input line 33.
+LaTeX Font Info:    Checking defaults for TS1/cmr/m/n on input line 33.
+LaTeX Font Info:    ... okay on input line 33.
+LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 33.
+LaTeX Font Info:    ... okay on input line 33.
+LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 33.
+LaTeX Font Info:    ... okay on input line 33.
 
 (D:\Programs\MiKTeX\tex/context/base/mkii\supp-pdf.mkii
 [Loading MPS to PDF converter (version 2006.09.02).]
@@ -212,69 +215,79 @@ Package epstopdf-base Info: Redefining graphics rule for `.eps' on input line 4
 (D:\Programs\MiKTeX\tex/latex/00miktex\epstopdf-sys.cfg
 File: epstopdf-sys.cfg 2021/03/18 v2.0 Configuration of epstopdf for MiKTeX
 ))
-LaTeX Font Info:    Trying to load font information for U+msa on input line 34.
+LaTeX Font Info:    Trying to load font information for U+msa on input line 35.
 
 
 (D:\Programs\MiKTeX\tex/latex/amsfonts\umsa.fd
 File: umsa.fd 2013/01/14 v3.01 AMS symbols A
 )
-LaTeX Font Info:    Trying to load font information for U+msb on input line 34.
+LaTeX Font Info:    Trying to load font information for U+msb on input line 35.
 
 
 (D:\Programs\MiKTeX\tex/latex/amsfonts\umsb.fd
 File: umsb.fd 2013/01/14 v3.01 AMS symbols B
 )
 LaTeX Font Info:    Trying to load font information for OT1+pcr on input line 3
-4.
+5.
 
 (D:\Programs\MiKTeX\tex/latex/psnfss\ot1pcr.fd
 File: ot1pcr.fd 2001/06/04 font definitions for OT1/pcr.
 )
 LaTeX Font Info:    Trying to load font information for OMS+pcr on input line 3
-4.
+5.
 
 (D:\Programs\MiKTeX\tex/latex/psnfss\omspcr.fd
 File: omspcr.fd 
 )
 LaTeX Font Info:    Font shape `OMS/pcr/m/n' in size <10> not available
-(Font)              Font shape `OMS/cmsy/m/n' tried instead on input line 34.
+(Font)              Font shape `OMS/cmsy/m/n' tried instead on input line 35.
 LaTeX Font Info:    Trying to load font information for TS1+ptm on input line 5
-3.
+4.
 
 (D:\Programs\MiKTeX\tex/latex/psnfss\ts1ptm.fd
 File: ts1ptm.fd 2001/06/04 font definitions for TS1/ptm.
 )
-Underfull \hbox (badness 1337) in paragraph at lines 55--57
+Underfull \hbox (badness 1337) in paragraph at lines 56--58
 []\OT1/ptm/b/n/10 Abuse\OT1/ptm/m/n/10 : posts from this cat-e-gory de-scribe t
 op-ics
  []
 
 
-Underfull \hbox (badness 1460) in paragraph at lines 55--57
+Underfull \hbox (badness 1460) in paragraph at lines 56--58
 \OT1/ptm/m/n/10 re-lated to abuse in re-la-tion-ships and users share
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 57--59
+Underfull \hbox (badness 10000) in paragraph at lines 58--60
 []\OT1/ptm/b/n/10 Anxiety\OT1/ptm/m/n/10 : sub-red-dits from this cat-e-gory ar
 e
  []
 
 
-Underfull \hbox (badness 2980) in paragraph at lines 57--59
+Underfull \hbox (badness 2980) in paragraph at lines 58--60
 [][]\OT1/pcr/m/n/10 r/anxiety []\OT1/ptm/m/n/10 and [][]\OT1/pcr/m/n/10 r/stres
 s[]\OT1/ptm/m/n/10 . Users in posts
  []
 
 
-Underfull \hbox (badness 2941) in paragraph at lines 61--63
+Underfull \hbox (badness 2941) in paragraph at lines 62--64
 []\OT1/ptm/b/n/10 Financial\OT1/ptm/m/n/10 : posts from sub-red-dits that fall 
 into
  []
 
 
-Underfull \hbox (badness 1910) in paragraph at lines 61--63
+Underfull \hbox (badness 1910) in paragraph at lines 62--64
 \OT1/ptm/m/n/10 ful fi-nan-cial top-ics. Sub-red-dits from this cat-e-
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 113--118
+
+ []
+
+
+Underfull \hbox (badness 4024) in paragraph at lines 113--118
+\OT1/ptm/m/n/10 so-lu-tion, ex-clud-ing state-of-the-art so-lu-tions such as
  []
 
 [1{C:/Users/lovro/AppData/Local/MiKTeX/fonts/map/pdftex/pdftex.map}{D:/Programs
@@ -283,26 +296,73 @@ Underfull \hbox (badness 1910) in paragraph at lines 61--63
 
 
 ]
-(D:\Repos\TAR-projekt\paper\auxiliary\paper.bbl) [2
+Underfull \hbox (badness 10000) in paragraph at lines 127--136
 
-]
-(D:\Repos\TAR-projekt\paper\auxiliary\paper.aux) ) 
+ []
+
+
+Underfull \hbox (badness 2158) in paragraph at lines 127--136
+\OT1/ptm/m/n/10 Logistic re-gres-sion model ex-pects a fixed size in-put
+ []
+
+
+Underfull \hbox (badness 3039) in paragraph at lines 146--155
+\OT1/ptm/m/n/10 learn-ing mod-els called trans-form-ers (Vaswani et al.,
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 146--155
+
+ []
+
+
+Underfull \hbox (badness 2181) in paragraph at lines 146--155
+\OT1/ptm/m/n/10 DistilBERT is a model sim-i-lar to the more pop-u-lar
+ []
+
+<images/chat-gpt-prompt.png, id=9, 708.6475pt x 268.00125pt>
+File: images/chat-gpt-prompt.png Graphic file (type png)
+<use images/chat-gpt-prompt.png>
+Package pdftex.def Info: images/chat-gpt-prompt.png  used on input line 161.
+(pdftex.def)             Requested size: 244.69365pt x 92.53822pt.
+
+Overfull \hbox (8.96268pt too wide) in paragraph at lines 161--162
+ [][] 
+ []
+
+
+Underfull \vbox (badness 1194) has occurred while \output is active []
+
+ [2 <./images/chat-gpt-prompt.png>] (D:\Repos\TAR-projekt\paper\auxiliary\paper
+.bbl
+Underfull \hbox (badness 1533) in paragraph at lines 17--21
+[]\OT1/ptm/m/n/10 Victor Sanh, Lysan-dre De-but, Julien Chau-mond, and
+ []
+
+
+Underfull \hbox (badness 1817) in paragraph at lines 33--37
+[]\OT1/ptm/m/n/10 Ashish Vaswani, Noam Shazeer, Niki Par-mar, Jakob
+ []
+
+) [3
+
+] (D:\Repos\TAR-projekt\paper\auxiliary\paper.aux) ) 
 Here is how much of TeX's memory you used:
- 2889 strings out of 476331
- 42737 string characters out of 5799959
- 1869660 words of memory out of 5000000
- 23295 multiletter control sequences out of 15000+600000
+ 4595 strings out of 476331
+ 81498 string characters out of 5799959
+ 1870660 words of memory out of 5000000
+ 24994 multiletter control sequences out of 15000+600000
  525561 words of font info for 57 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
- 57i,10n,62p,236b,332s stack positions out of 10000i,1000n,20000p,200000b,200000s
-<D:/Programs/MiKTeX/fonts/typ
-e1/public/amsfonts/cm/cmsy10.pfb><D:/Programs/MiKTeX/fonts/type1/urw/courier/uc
-rr8a.pfb><D:/Programs/MiKTeX/fonts/type1/urw/times/utmb8a.pfb><D:/Programs/MiKT
-eX/fonts/type1/urw/times/utmr8a.pfb><D:/Programs/MiKTeX/fonts/type1/urw/times/u
-tmri8a.pfb>
-Output written on paper.pdf (2 pages, 77566 bytes).
+ 57i,10n,62p,550b,332s stack positions out of 10000i,1000n,20000p,200000b,200000s
+<D:/Programs/MiKTeX/fonts/t
+ype1/public/amsfonts/cm/cmsy10.pfb><D:/Programs/MiKTeX/fonts/type1/urw/courier/
+ucrr8a.pfb><D:/Programs/MiKTeX/fonts/type1/urw/times/utmb8a.pfb><D:/Programs/Mi
+KTeX/fonts/type1/urw/times/utmr8a.pfb><D:/Programs/MiKTeX/fonts/type1/urw/times
+/utmri8a.pfb>
+Output written on paper.pdf (3 pages, 118007 bytes).
 PDF statistics:
- 35 PDF objects out of 1000 (max. 8388607)
+ 41 PDF objects out of 1000 (max. 8388607)
  0 named destinations out of 1000 (max. 500000)
- 1 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 6 words of extra memory for PDF output out of 10000 (max. 10000000)
 
