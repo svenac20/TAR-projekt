@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.25 (MiKTeX 23.4) (preloaded format=pdflatex 2023.4.21)  4 JUN 2023 22:43
+This is pdfTeX, Version 3.141592653-2.6-1.40.25 (MiKTeX 23.4) (preloaded format=pdflatex 2023.4.21)  4 JUN 2023 23:55
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -255,75 +255,90 @@ Underfull \hbox (badness 10000) in paragraph at lines 43--53
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 63--69
+Underfull \hbox (badness 10000) in paragraph at lines 63--70
 
  []
 
 
-Underfull \hbox (badness 2181) in paragraph at lines 63--69
+Underfull \hbox (badness 10000) in paragraph at lines 63--70
+
+ []
+
+
+Underfull \hbox (badness 2181) in paragraph at lines 63--70
 \OT1/ptm/m/n/10 The dataset con-sists of posts from sub-red-dits where
  []
 
 
-Underfull \hbox (badness 1132) in paragraph at lines 63--69
+Underfull \hbox (badness 1132) in paragraph at lines 63--70
 \OT1/ptm/m/n/10 stress-ful top-ics are likely to be dis-cussed in be-tween
  []
 
 LaTeX Font Info:    Trying to load font information for TS1+ptm on input line 7
-1.
+2.
 (D:\Programs\MiKTeX\tex/latex/psnfss\ts1ptm.fd
 File: ts1ptm.fd 2001/06/04 font definitions for TS1/ptm.
 )
-Underfull \hbox (badness 1337) in paragraph at lines 73--75
+Underfull \hbox (badness 1337) in paragraph at lines 74--76
 []\OT1/ptm/b/n/10 Abuse\OT1/ptm/m/n/10 : posts from this cat-e-gory de-scribe t
 op-ics
  []
 
 
-Underfull \hbox (badness 1460) in paragraph at lines 73--75
+Underfull \hbox (badness 1460) in paragraph at lines 74--76
 \OT1/ptm/m/n/10 re-lated to abuse in re-la-tion-ships and users share
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 75--77
+Underfull \hbox (badness 10000) in paragraph at lines 76--78
 []\OT1/ptm/b/n/10 Anxiety\OT1/ptm/m/n/10 : sub-red-dits from this cat-e-gory ar
 e
  []
 
 
-Underfull \hbox (badness 2980) in paragraph at lines 75--77
+Underfull \hbox (badness 2980) in paragraph at lines 76--78
 [][]\OT1/pcr/m/n/10 r/anxiety []\OT1/ptm/m/n/10 and [][]\OT1/pcr/m/n/10 r/stres
 s[]\OT1/ptm/m/n/10 . Users in posts
  []
 
 
-Underfull \hbox (badness 2941) in paragraph at lines 79--81
+Underfull \hbox (badness 2941) in paragraph at lines 80--82
 []\OT1/ptm/b/n/10 Financial\OT1/ptm/m/n/10 : posts from sub-red-dits that fall 
 into
  []
 
 
-Underfull \hbox (badness 1910) in paragraph at lines 79--81
+Underfull \hbox (badness 1910) in paragraph at lines 80--82
 \OT1/ptm/m/n/10 ful fi-nan-cial top-ics. Sub-red-dits from this cat-e-
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 110--128
+Underfull \hbox (badness 10000) in paragraph at lines 110--112
 
  []
 
 
-Underfull \hbox (badness 1281) in paragraph at lines 110--128
+Underfull \hbox (badness 10000) in paragraph at lines 110--112
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 114--132
+
+ []
+
+
+Underfull \hbox (badness 1281) in paragraph at lines 114--132
 \OT1/ptm/m/n/10 Primary job for an-no-ta-tors was to de-ter-mine if there
  []
 
 
-Underfull \hbox (badness 1622) in paragraph at lines 110--128
+Underfull \hbox (badness 1622) in paragraph at lines 114--132
 \OT1/ptm/m/n/10 The def-i-ni-tion for stress was taken from the Ox-ford
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 110--128
+Underfull \hbox (badness 10000) in paragraph at lines 114--132
 
  []
 
@@ -333,112 +348,92 @@ Underfull \hbox (badness 10000) in paragraph at lines 110--128
 
 
 ]
-Underfull \hbox (badness 10000) in paragraph at lines 130--140
+Underfull \hbox (badness 10000) in paragraph at lines 134--144
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 130--140
+Underfull \hbox (badness 10000) in paragraph at lines 134--144
 
  []
 
 
-Underfull \hbox (badness 1226) in paragraph at lines 130--140
+Underfull \hbox (badness 1226) in paragraph at lines 134--144
 \OT1/ptm/m/n/10 We per-formed our train-ing on the whole dataset and
  []
 
 
-Underfull \hbox (badness 1454) in paragraph at lines 130--140
+Underfull \hbox (badness 1454) in paragraph at lines 134--144
 \OT1/ptm/m/n/10 our fo-cus wasn't to get the best pos-si-ble re-sults for
  []
 
 <images/embeddings.png, id=9, 236.38312pt x 201.75375pt>
 File: images/embeddings.png Graphic file (type png)
 <use images/embeddings.png>
-Package pdftex.def Info: images/embeddings.png  used on input line 155.
+Package pdftex.def Info: images/embeddings.png  used on input line 159.
 (pdftex.def)             Requested size: 244.69365pt x 208.85228pt.
 
-Overfull \hbox (8.96268pt too wide) in paragraph at lines 155--156
+Overfull \hbox (8.96268pt too wide) in paragraph at lines 159--160
  [][] 
  []
 
 
 LaTeX Warning: `h' float specifier changed to `ht'.
 
-
-Underfull \hbox (badness 10000) in paragraph at lines 159--169
-
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 159--169
-
- []
-
-
-Underfull \hbox (badness 1242) in paragraph at lines 159--169
-\OT1/ptm/m/n/10 rep-re-sent words from our dataset as mul-ti-di-men-sional
- []
-
-
-Underfull \hbox (badness 1910) in paragraph at lines 159--169
-\OT1/ptm/m/n/10 dataset and pro-duced 300-dimensional rep-re-sen-ta-tions.
- []
-
 [2]
-Underfull \hbox (badness 3039) in paragraph at lines 179--188
+Underfull \hbox (badness 3039) in paragraph at lines 181--190
 \OT1/ptm/m/n/10 learn-ing mod-els called trans-form-ers (Vaswani et al.,
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 179--188
+Underfull \hbox (badness 10000) in paragraph at lines 181--190
 
  []
 
 
-Underfull \hbox (badness 2181) in paragraph at lines 179--188
+Underfull \hbox (badness 2181) in paragraph at lines 181--190
 \OT1/ptm/m/n/10 DistilBERT is a model sim-i-lar to the more pop-u-lar
  []
 
 <images/chat-gpt-prompt.png, id=14, 708.6475pt x 268.00125pt>
 File: images/chat-gpt-prompt.png Graphic file (type png)
 <use images/chat-gpt-prompt.png>
-Package pdftex.def Info: images/chat-gpt-prompt.png  used on input line 203.
+Package pdftex.def Info: images/chat-gpt-prompt.png  used on input line 205.
 (pdftex.def)             Requested size: 244.69365pt x 92.53822pt.
 
-Overfull \hbox (8.96268pt too wide) in paragraph at lines 203--204
+Overfull \hbox (8.96268pt too wide) in paragraph at lines 205--206
  [][] 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 230--239
+Underfull \hbox (badness 10000) in paragraph at lines 232--241
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 230--239
+Underfull \hbox (badness 10000) in paragraph at lines 232--241
 
  []
 
 <images/conf-matrix-chatgpt.png, id=15, 537.00626pt x 437.635pt>
 File: images/conf-matrix-chatgpt.png Graphic file (type png)
 <use images/conf-matrix-chatgpt.png>
-Package pdftex.def Info: images/conf-matrix-chatgpt.png  used on input line 242
+Package pdftex.def Info: images/conf-matrix-chatgpt.png  used on input line 244
 .
 (pdftex.def)             Requested size: 244.69365pt x 199.41138pt.
 
-Overfull \hbox (8.96268pt too wide) in paragraph at lines 242--243
+Overfull \hbox (8.96268pt too wide) in paragraph at lines 244--245
  [][] 
  []
 
 <images/conf-matrix-logreg.png, id=16, 537.00626pt x 428.60126pt>
 File: images/conf-matrix-logreg.png Graphic file (type png)
 <use images/conf-matrix-logreg.png>
-Package pdftex.def Info: images/conf-matrix-logreg.png  used on input line 249.
+Package pdftex.def Info: images/conf-matrix-logreg.png  used on input line 251.
 
 (pdftex.def)             Requested size: 244.69365pt x 195.29509pt.
 
-Overfull \hbox (8.96268pt too wide) in paragraph at lines 249--250
+Overfull \hbox (8.96268pt too wide) in paragraph at lines 251--252
  [][] 
  []
 
@@ -446,16 +441,17 @@ Overfull \hbox (8.96268pt too wide) in paragraph at lines 249--250
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 275--281
+Underfull \hbox (badness 10000) in paragraph at lines 277--285
 
  []
 
-(D:\Repos\TAR-projekt\paper\auxiliary\paper.bbl
+(D:\Repos\TAR-projekt\paper\auxiliary\paper.bbl [4 <./images/conf-matrix-chatgp
+t.png> <./images/conf-matrix-logreg.png>]
 Underfull \hbox (badness 1533) in paragraph at lines 29--33
 []\OT1/ptm/m/n/10 Victor Sanh, Lysan-dre De-but, Julien Chau-mond, and
  []
 
-[4 <./images/conf-matrix-chatgpt.png> <./images/conf-matrix-logreg.png>]
+
 Underfull \hbox (badness 1817) in paragraph at lines 45--49
 []\OT1/ptm/m/n/10 Ashish Vaswani, Noam Shazeer, Niki Par-mar, Jakob
  []
@@ -476,7 +472,7 @@ ype1/public/amsfonts/cm/cmsy10.pfb><D:/Programs/MiKTeX/fonts/type1/urw/courier/
 ucrr8a.pfb><D:/Programs/MiKTeX/fonts/type1/urw/times/utmb8a.pfb><D:/Programs/Mi
 KTeX/fonts/type1/urw/times/utmr8a.pfb><D:/Programs/MiKTeX/fonts/type1/urw/times
 /utmri8a.pfb>
-Output written on paper.pdf (5 pages, 160682 bytes).
+Output written on paper.pdf (5 pages, 160930 bytes).
 PDF statistics:
  53 PDF objects out of 1000 (max. 8388607)
  0 named destinations out of 1000 (max. 500000)
