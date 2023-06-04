@@ -13,6 +13,7 @@
 \usepackage{amssymb}
 \usepackage{multirow}
 \usepackage{cleveref}
+\usepackage{float}
 
 \title{Transformers, do we really need them for detecting stress?}
 
@@ -50,8 +51,9 @@ In the end we are going to try to answer the question if the more complex and co
 \section{Related Work}
 Stress detection was researched in a couple of other approaches in the last couple of years.
 One of the approaches was detecting stress using deep neural networks and psychological signals~\citep{stress-neural}.
-
-The approach that we looked at the most was by the authors of the dataset~\citep{turcan-mckeown-2019-dreaddit}
+This work however focused more on the medical aspects of stress while our aim was to detect stress using persons description of an event.
+The approach that we looked at the most was by the authors of the dataset~\citep{turcan-mckeown-2019-dreaddit}.
+They focused on developing the dataset as well as testing how different models solved the given task.
 
 \section{Dataset}
 
@@ -127,9 +129,10 @@ Motivated by the results of the aforementioned paper, our approach focused on th
 Firstly we will introduce the \textbf{logistic regression} model which the authors of the dataset presented as the best solution, excluding state-of-the-art (SOTA) solutions such as BERT.
 This model is going to represent a simple model approach to the problem without using more complex solutions such as transformers.
 Then we are going to introduce two transformer approaches, one being \textbf{DistilBERT} and the other one, currently very popular, \textbf{Chat GPT 3.5 Turbo}.
-
+\hfill \break
+\hfill \break
 We performed our training on the whole dataset and our focus wasn't to get the best possible results for each model but to compare them and find out which is best suited for the given classification task (taking into account the cost of the model).
-Because of that reason we also didn't remove lower agreement rate examples from our training dataset to see how our models deal with learning harder examples.
+Because of that reason, we also didn't remove lower agreement rate examples from our training dataset to enable our models to handle even the harder examples which are inevitable in the real applications.
 
 \subsection{Preprocessing}
 Before we trained our models we needed to do some form of preprocessing on our data.
@@ -142,10 +145,21 @@ Then we performed lemmatization which enabled us to properly train the word embe
 Logistic regression~\citep{logreg} is a commonly used machine learning model which can be used for binary classification problem.
 This is a simple model which doesn't require long and expensive training, so, inspired by the great results that this model showed in the original paper (F-score of 79.8 ~\citep{turcan-mckeown-2019-dreaddit}), we have also decided to
 include it in our own research.
+
+\begin{figure}[h]
+    \centering
+    \includegraphics[width=0.5\textwidth]{images/embeddings}
+    \caption{Relations between similar word vectors}
+    \label{fig:embedding}
+\end{figure}
 \hfill \break
 \hfill \break
-Logistic regression model expects a fixed size input but words and sentences in natural language can be of any size.
-Today this problem is solved by using word embeddings which represent words from our dataset as multidimensional vectors. Their advantage over some other approaches that were used in the past, such as one-hot vector representation, is that they are able to find relations between words and produce similar vectors for similar words.In our approach we used \textbf{word2Vec}~\citep{mikolov2013efficient} embeddings which were trained on the whole training dataset and produced 300-dimensional representations.
+\hfill \break
+Logistic regression expects a fixed size input but words and sentences in natural language can be of any size.
+Today, this problem is solved by using word embeddings which represent words from our dataset as multidimensional vectors.
+Their advantage over some other approaches that were used in the past, such as one-hot vector representation, is that they are able to find relations between words and produce similar vectors for similar words.
+The relation between similar words can be seen in figure~\ref{fig:embedding}.
+In our approach we used \textbf{word2Vec}~\citep{mikolov2013efficient} embeddings which were trained on the whole training dataset and produced 300-dimensional representations.
 Learned word embeddings were then used for calculating the final representation for each training example.
 Here we experimented with 2 approaches:
 \begin{enumerate}
@@ -170,12 +184,6 @@ Model and tokenizer were trained simultaneously on the whole training set using 
 
 
 
-\begin{figure}
-    \centering
-    \includegraphics[width=0.5\textwidth]{images/chat-gpt-prompt}
-    \caption{Text input for Chat GPT 3.5 Turbo API}
-    \label{fig:chat-gpt-prompt}
-\end{figure}
 
 
 \subsection{Chat GPT 3.5 Turbo}
@@ -185,6 +193,13 @@ We couldn't perform direct training on this model, but instead we used the provi
 You can see how we formulated our prompt in figure~\ref{fig:chat-gpt-prompt}.
 
 It must be mentioned that there was some manual data cleanup needed after we got the responses from the API (labels contained an explanation behind the given result)
+
+\begin{figure}
+    \centering
+    \includegraphics[width=0.5\textwidth]{images/chat-gpt-prompt}
+    \caption{Text input for Chat GPT 3.5 Turbo API}
+    \label{fig:chat-gpt-prompt}
+\end{figure}
 
 \begin{table*}
     \centering
@@ -214,7 +229,7 @@ However, classifying stress, using this pretty clean dataset, isn't a particular
 \hfill \break
 \hfill \break
 Here we compared only the results of the two models not taking into account the cost of the more complex model.
-Training of the DistilBERT model took longer and required more hardware just to get worse results.
+Training of the DistilBERT model took longer and required more hardware just to get similar results.
 This leads us to the conclusion that sometimes the solution to the problem could be a simple model without the need for more complex and expensive solutions.
 \\
 
@@ -236,8 +251,8 @@ This leads us to the conclusion that sometimes the solution to the problem could
 \subsection{DistilBERT vs Chat GPT}
 In our two transformer approaches Chat GPT showed much better results.
 What shows the true power of this transformer model is that, even though it wasn't strictly trained on the training data, it managed to outperform DistilBERT model.
-As we can see in figure ~\ref{fig:chat-gpt-conf-matrix} this model managed to have an extremely low number of false negative (FN) predictions.
-In certain cases we would want to prefer this behaviour where we want to detect stress and help the person who is experiencing it.
+As we can see in figure~\ref{fig:chat-gpt-conf-matrix} this model managed to have an extremely low number of false negative (FN) predictions.
+In certain cases we would want to prefer this behaviour where not detecting stress represents a big problem.
 
 The downside of this approach is the cost behind it.
 Chat GPT API is a paid service and if we want to use this approach in for stress detection this might not be the best option if our budget is limited.
@@ -249,13 +264,16 @@ While we can look at the scores by themselves and conclude that Chat GPT is a be
 
 Our simpler LR model achieves comparable results to the SOTA solution and we claim that it is the optimal approach for solving stress classification problem from the given dataset.
 Model is easy to learn and could even get better results if it was trained on the dataset which contained examples with higher agreement factor, as it was shown from the authors of the dataset.
+
+If we have more resources and a bigger budget, Chat GPT with its powerful API service could be a better choice, mainly because it rarely doesn't detect stress which could definitely help in certain situations.
 \section{Conclusion}
 
-
-
-\section*{Acknowledgements}
-
-Here we can write a thank you to the professors and the assistants which were involved in TAR class.
+In this paper we looked at different approaches for detecting stress from the Dreaddit dataset.
+We continued our research on findings of the authors and tried to find out if more complex models and solutions gave much better results.
+\hfill \break
+\hfill \break
+We believe that the simple model solves this problem well enough and that more complex and expensive transformer solutions aren't worth the extra cost.
+In some rare cases, where not detecting stress could pose a problem, we can suggest trying the Chat GPT API service if the demand isn't high and the budget isn't very limited.
 
 \bibliographystyle{tar2023}
 \bibliography{tar2023}
