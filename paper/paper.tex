@@ -27,11 +27,11 @@
 
 
 \abstract{
-    Sentiment analysis is a prominent branch of machine learning and, more specifically, natural language processing that is advancing from day to day.
-    In the modern day and age where negative emotions such as stress are present in everyday life of most people social media allows them to share those emotions with the world at every moment.
-    Using those posts from social media the dataset Dreaddit was created which collected posts from a social media site called Reddit with the purpose of detecting stress in those posts.
-    In this paper we will explore different deep learning models to find which approach is most effective in detecing stress from text.
-    Some models that we worked with were logistic regression along with two transformer approaches: DistilBERT and Chat GPT 3.5 Turbo.
+    In the modern day and age, where negative emotions such as stress are present in everyday life of most people, social media allows them to share those emotions with the world.
+    Using posts from the social media site Reddit, the dataset Dreaddit was created.
+    In this paper we will explore different approaches for stress detection using some simple and some more advanced models.
+    Models that we worked with were logistic regression along with two transformer approaches: DistilBERT and Chat GPT 3.5 Turbo.
+    Our goal was to compare these different approaches to stress detection and find out which model would produce the best results while also not being too expensive and complex.
 }
 
 \begin{document}
@@ -62,6 +62,7 @@ They focused on developing the dataset as well as testing how different models s
 
 The dataset that is used in this paper was introduced in a paper which collected posts from a social media webside called Reddit~\citep{turcan-mckeown-2019-dreaddit}.
 On that website users can create posts in communities which focus on specific topics called subreddits.
+\hfill \break
 \hfill \break
 \hfill \break
 The dataset consists of posts from subreddits where stressful topics are likely to be discussed in between January 1, 2017 and November 19, 2018.
@@ -105,6 +106,9 @@ The distribution of these posts can be seen in the Table~\ref{tab:dataset-distri
     \end{center}
 \end{table*}
 
+
+\hfill \break
+\hfill \break
 \subsection{Data Annotation}
 
 A portion of the data was annotated using Amazon Mechanical Turk, a crowdsourcing marketplace that allows individuals to outsource jobs.
@@ -156,8 +160,6 @@ include it in our own research.
     \caption{Relations between similar word vectors}
     \label{fig:embedding}
 \end{figure}
-\hfill \break
-\hfill \break
 \hfill \break
 Logistic regression expects a fixed size input but words and sentences in natural language can be of any size.
 Today, this problem is solved by using word embeddings which represent words from our dataset as multidimensional vectors.
@@ -278,6 +280,8 @@ We continued our research on findings of the authors and tried to find out if mo
 \hfill \break
 We believe that the simple model solves this problem well enough and that more complex and expensive transformer solutions aren't worth the extra cost.
 In some rare cases, where not detecting stress could pose a problem, we can suggest trying the Chat GPT API service if the demand isn't high and the budget isn't limited.
+Transformers may be a better option if we just look at their capabilities, but at what cost?
+Sometimes the simpler solution gets the job done and we should stick to it.
 
 \bibliographystyle{tar2023}
 \bibliography{tar2023}
