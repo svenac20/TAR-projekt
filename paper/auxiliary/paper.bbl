@@ -6,11 +6,23 @@ Jacob Devlin, Ming-Wei Chang, Kenton Lee, and Kristina Toutanova.
 \newblock Bert: Pre-training of deep bidirectional transformers for language
   understanding.
 
+\bibitem[\protect\citename{Li and Liu}2020]{stress-neural}
+Russell Li and Zhandong Liu.
+\newblock 2020.
+\newblock Stress detection using deep neural networks.
+\newblock {\em BMC Medical Informatics and Decision Making}, 20, 12.
+
 \bibitem[\protect\citename{Mikolov \bgroup et al.\egroup
   }2013]{mikolov2013efficient}
 Tomas Mikolov, Kai Chen, Greg Corrado, and Jeffrey Dean.
 \newblock 2013.
 \newblock Efficient estimation of word representations in vector space.
+
+\bibitem[\protect\citename{Peng \bgroup et al.\egroup }2002]{logreg}
+Joanne Peng, Kuk Lee, and Gary Ingersoll.
+\newblock 2002.
+\newblock An introduction to logistic regression analysis and reporting.
+\newblock {\em Journal of Educational Research - J EDUC RES}, 96:3--14, 09.
 
 \bibitem[\protect\citename{Sanh \bgroup et al.\egroup
   }2020]{sanh2020distilbert}
