@@ -27,8 +27,11 @@
 
 
 \abstract{
-    Here we can write an abstract of the paper.
-    The abstract is a paragraph of text ranging between 70 and 150 words.
+    Sentiment analysis is a prominent branch of machine learning and, more specifically, natural language processing that is advancing from day to day.
+    In the modern day and age where negative emotions such as stress are present in everyday life of most people social media allows them to share those emotions with the world at every moment.
+    Using those posts from social media the dataset Dreaddit was created which collected posts from a social media site called Reddit with the purpose of detecting stress in those posts.
+    In this paper we will explore different deep learning models to find which approach is most effective in detecing stress from text.
+    Some models that we worked with were logistic regression along with two transformer approaches: DistilBERT and Chat GPT 3.5 Turbo.
 }
 
 \begin{document}
@@ -59,7 +62,8 @@ They focused on developing the dataset as well as testing how different models s
 
 The dataset that is used in this paper was introduced in a paper which collected posts from a social media webside called Reddit~\citep{turcan-mckeown-2019-dreaddit}.
 On that website users can create posts in communities which focus on specific topics called subreddits.
-
+\hfill \break
+\hfill \break
 The dataset consists of posts from subreddits where stressful topics are likely to be discussed in between January 1, 2017 and November 19, 2018.
 These subreddits fall into one of these categories:
 
@@ -104,19 +108,19 @@ The distribution of these posts can be seen in the Table~\ref{tab:dataset-distri
 \subsection{Data Annotation}
 
 A portion of the data was annotated using Amazon Mechanical Turk, a crowdsourcing marketplace that allows individuals to outsource jobs.
-
+\hfill \break
+\hfill \break
 Primary job for annotators was to determine if there was stress present in the sentence that they were presented.
 The definition for stress was taken from the Oxford English Dictionary states that stress is `a state of mental or emotional strain or tension resulting from adverse or demanding circumstance'.
 Each annotator first had to take a qualification test to ensure that they would label the sentences correctly.
 In the qualification test annotators were given instructions on how to correctly label post segments.
-
 After that, each annotator was given 5 segments which they had to annotate with one of the following labels: ``Stress'', ``Not Stress'' or ``Can't Tell''.
 In addition to the qualification test, each annotator was given one of the 50 `check questions' which were labeled by creators of the dataset.
 If they did not label these `check questions' correctly their annotations were not included in the final dataset.
-
 Since posts can often be longer, which would prove to be complicated for the annotators to label, they were divided into five-sentence chunks.
 Added bonus of this technique is that the data can be used to determine the specific location of stress in the post.
-
+\hfill \break
+\hfill \break
 In total, 3,553 labeled data points were collected out of which 39\% had perfect agreement.
 With 52.3\% of the data being labeled as stressful, the dataset is nearly perfectly balanced.
 Labeled data was split into two subsets: train and test subset.
@@ -167,7 +171,7 @@ Here we experimented with 2 approaches:
     \item \textbf{TF-IDF averaging:} Term Frequency - Inverse Document Frequency is an algorithm that is used to determine an importance of the given word in the document.
     Importance is represented as a scalar value.
      This scalar value for each word is then multiplied with the word's corresponding representation.
-    The final representation is then calculated in the same way as described in~\ref{itm:one}.
+    The final representation is then calculated in the same way as described in approach~\ref{itm:one}.
 
 \end{enumerate}
 
@@ -192,7 +196,7 @@ This model was developed by OpenAI and it aims to generate human like responses 
 We couldn't perform direct training on this model, but instead we used the provided API to prompt the model to give us the classification result for each example in the test set.
 You can see how we formulated our prompt in figure~\ref{fig:chat-gpt-prompt}.
 
-It must be mentioned that there was some manual data cleanup needed after we got the responses from the API (labels contained an explanation behind the given result)
+It must be mentioned that there was some manual data cleanup needed after we got the responses from the API, such as explanations behind the given results that were contained in the labels.
 
 \begin{figure}
     \centering
@@ -210,9 +214,9 @@ It must be mentioned that there was some manual data cleanup needed after we got
             \hline
             \textbf{Model} & \textbf{P} & \textbf{R} & \textbf{F1} \\ \hline
             LR + averaged word2Vec embeddings & 0.6441 & 0.7995 & 0.7134 \\ \hline
-            LR + TF-IDF averaged word2Vec embeddings & 0.6859 & 0.8049 & \textbf{0.7406} \\ \hline
-            DistilBERT & 0.7105 & 0.7913 & 0.7487 \\ \hline
-            Chat GPT 3.5 Turbo & 0.6905 & \textbf{0.9431} & 0.7972 \\ \hline
+            LR + TF-IDF averaged word2Vec embeddings & 0.6859 & 0.8049 & 0.7406 \\ \hline
+            DistilBERT & \textbf{0.7105} & 0.7913 & 0.7487 \\ \hline
+            Chat GPT 3.5 Turbo & 0.6905 & \textbf{0.9431} & \textbf{0.7972} \\ \hline
         \end{tabular}
     \end{center}
 \end{table*}
@@ -269,11 +273,11 @@ If we have more resources and a bigger budget, Chat GPT with its powerful API se
 \section{Conclusion}
 
 In this paper we looked at different approaches for detecting stress from the Dreaddit dataset.
-We continued our research on findings of the authors and tried to find out if more complex models and solutions gave much better results.
+We continued our research on findings of the authors and tried to find out if more complex models and solutions gave better results.
 \hfill \break
 \hfill \break
 We believe that the simple model solves this problem well enough and that more complex and expensive transformer solutions aren't worth the extra cost.
-In some rare cases, where not detecting stress could pose a problem, we can suggest trying the Chat GPT API service if the demand isn't high and the budget isn't very limited.
+In some rare cases, where not detecting stress could pose a problem, we can suggest trying the Chat GPT API service if the demand isn't high and the budget isn't limited.
 
 \bibliographystyle{tar2023}
 \bibliography{tar2023}

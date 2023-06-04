@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.25 (MiKTeX 23.4) (preloaded format=pdflatex 2023.4.21)  4 JUN 2023 19:30
+This is pdfTeX, Version 3.141592653-2.6-1.40.25 (MiKTeX 23.4) (preloaded format=pdflatex 2023.4.21)  4 JUN 2023 22:43
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -165,47 +165,56 @@ Package: multirow 2021/03/15 v2.8 Span multiple rows of a table
 (D:\Programs\MiKTeX\tex/latex/cleveref\cleveref.sty
 Package: cleveref 2018/03/27 v0.21.4 Intelligent cross-referencing
 )
+(D:\Programs\MiKTeX\tex/latex/float\float.sty
+Package: float 2001/11/08 v1.3d Float enhancements (AL)
+\c@float@type=\count276
+\float@exts=\toks24
+\float@box=\box53
+\@float@everytoks=\toks25
+\@floatcapt=\box54
+)
 LaTeX Font Info:    Trying to load font information for OT1+ptm on input line 3
-3.
+7.
 
 (D:\Programs\MiKTeX\tex/latex/psnfss\ot1ptm.fd
 File: ot1ptm.fd 2001/06/04 font definitions for OT1/ptm.
 )
 (D:\Programs\MiKTeX\tex/latex/l3backend\l3backend-pdftex.def
 File: l3backend-pdftex.def 2023-03-30 L3 backend support: PDF output (pdfTeX)
-\l__color_backend_stack_int=\count276
-\l__pdf_internal_box=\box53
-) (paper.aux)
+\l__color_backend_stack_int=\count277
+\l__pdf_internal_box=\box55
+)
+(D:\Repos\TAR-projekt\paper\auxiliary\paper.aux)
 \openout1 = `paper.aux'.
 
-LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 33.
-LaTeX Font Info:    ... okay on input line 33.
-LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 33.
-LaTeX Font Info:    ... okay on input line 33.
-LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 33.
-LaTeX Font Info:    ... okay on input line 33.
-LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 33.
-LaTeX Font Info:    ... okay on input line 33.
-LaTeX Font Info:    Checking defaults for TS1/cmr/m/n on input line 33.
-LaTeX Font Info:    ... okay on input line 33.
-LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 33.
-LaTeX Font Info:    ... okay on input line 33.
-LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 33.
-LaTeX Font Info:    ... okay on input line 33.
+LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 37.
+LaTeX Font Info:    ... okay on input line 37.
+LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 37.
+LaTeX Font Info:    ... okay on input line 37.
+LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 37.
+LaTeX Font Info:    ... okay on input line 37.
+LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 37.
+LaTeX Font Info:    ... okay on input line 37.
+LaTeX Font Info:    Checking defaults for TS1/cmr/m/n on input line 37.
+LaTeX Font Info:    ... okay on input line 37.
+LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 37.
+LaTeX Font Info:    ... okay on input line 37.
+LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 37.
+LaTeX Font Info:    ... okay on input line 37.
 
 (D:\Programs\MiKTeX\tex/context/base/mkii\supp-pdf.mkii
 [Loading MPS to PDF converter (version 2006.09.02).]
-\scratchcounter=\count277
+\scratchcounter=\count278
 \scratchdimen=\dimen166
-\scratchbox=\box54
-\nofMPsegments=\count278
-\nofMParguments=\count279
-\everyMPshowfont=\toks24
-\MPscratchCnt=\count280
+\scratchbox=\box56
+\nofMPsegments=\count279
+\nofMParguments=\count280
+\everyMPshowfont=\toks26
+\MPscratchCnt=\count281
 \MPscratchDim=\dimen167
-\MPnumerator=\count281
-\makeMPintoPDFobject=\count282
-\everyMPtoPDFconversion=\toks25
+\MPnumerator=\count282
+\makeMPintoPDFobject=\count283
+\everyMPtoPDFconversion=\toks27
 ) (D:\Programs\MiKTeX\tex/latex/epstopdf-pkg\epstopdf-base.sty
 Package: epstopdf-base 2020-01-24 v2.11 Base part for package epstopdf
 Package epstopdf-base Info: Redefining graphics rule for `.eps' on input line 4
@@ -214,84 +223,108 @@ Package epstopdf-base Info: Redefining graphics rule for `.eps' on input line 4
 (D:\Programs\MiKTeX\tex/latex/00miktex\epstopdf-sys.cfg
 File: epstopdf-sys.cfg 2021/03/18 v2.0 Configuration of epstopdf for MiKTeX
 ))
-LaTeX Font Info:    Trying to load font information for U+msa on input line 35.
+LaTeX Font Info:    Trying to load font information for U+msa on input line 39.
 
 
 (D:\Programs\MiKTeX\tex/latex/amsfonts\umsa.fd
 File: umsa.fd 2013/01/14 v3.01 AMS symbols A
 )
-LaTeX Font Info:    Trying to load font information for U+msb on input line 35.
+LaTeX Font Info:    Trying to load font information for U+msb on input line 39.
 
 
 (D:\Programs\MiKTeX\tex/latex/amsfonts\umsb.fd
 File: umsb.fd 2013/01/14 v3.01 AMS symbols B
 )
 LaTeX Font Info:    Trying to load font information for OT1+pcr on input line 3
-5.
+9.
 
 (D:\Programs\MiKTeX\tex/latex/psnfss\ot1pcr.fd
 File: ot1pcr.fd 2001/06/04 font definitions for OT1/pcr.
 )
 LaTeX Font Info:    Trying to load font information for OMS+pcr on input line 3
-5.
+9.
 
 (D:\Programs\MiKTeX\tex/latex/psnfss\omspcr.fd
 File: omspcr.fd 
 )
 LaTeX Font Info:    Font shape `OMS/pcr/m/n' in size <10> not available
-(Font)              Font shape `OMS/cmsy/m/n' tried instead on input line 35.
+(Font)              Font shape `OMS/cmsy/m/n' tried instead on input line 39.
 
-Underfull \hbox (badness 10000) in paragraph at lines 39--49
+Underfull \hbox (badness 10000) in paragraph at lines 43--53
 
  []
 
 
-LaTeX Warning: Citation `stress-neural' on page 1 undefined on input line 52.
+Underfull \hbox (badness 10000) in paragraph at lines 63--69
+
+ []
 
 
-LaTeX Warning: Citation `turcan-mckeown-2019-dreaddit' on page 1 undefined on i
-nput line 54.
+Underfull \hbox (badness 2181) in paragraph at lines 63--69
+\OT1/ptm/m/n/10 The dataset con-sists of posts from sub-red-dits where
+ []
 
 
-LaTeX Warning: Citation `turcan-mckeown-2019-dreaddit' on page 1 undefined on i
-nput line 58.
+Underfull \hbox (badness 1132) in paragraph at lines 63--69
+\OT1/ptm/m/n/10 stress-ful top-ics are likely to be dis-cussed in be-tween
+ []
 
-LaTeX Font Info:    Trying to load font information for TS1+ptm on input line 6
-5.
+LaTeX Font Info:    Trying to load font information for TS1+ptm on input line 7
+1.
 (D:\Programs\MiKTeX\tex/latex/psnfss\ts1ptm.fd
 File: ts1ptm.fd 2001/06/04 font definitions for TS1/ptm.
 )
-Underfull \hbox (badness 1337) in paragraph at lines 67--69
+Underfull \hbox (badness 1337) in paragraph at lines 73--75
 []\OT1/ptm/b/n/10 Abuse\OT1/ptm/m/n/10 : posts from this cat-e-gory de-scribe t
 op-ics
  []
 
 
-Underfull \hbox (badness 1460) in paragraph at lines 67--69
+Underfull \hbox (badness 1460) in paragraph at lines 73--75
 \OT1/ptm/m/n/10 re-lated to abuse in re-la-tion-ships and users share
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 69--71
+Underfull \hbox (badness 10000) in paragraph at lines 75--77
 []\OT1/ptm/b/n/10 Anxiety\OT1/ptm/m/n/10 : sub-red-dits from this cat-e-gory ar
 e
  []
 
 
-Underfull \hbox (badness 2980) in paragraph at lines 69--71
+Underfull \hbox (badness 2980) in paragraph at lines 75--77
 [][]\OT1/pcr/m/n/10 r/anxiety []\OT1/ptm/m/n/10 and [][]\OT1/pcr/m/n/10 r/stres
 s[]\OT1/ptm/m/n/10 . Users in posts
  []
 
 
-Underfull \hbox (badness 2941) in paragraph at lines 73--75
+Underfull \hbox (badness 2941) in paragraph at lines 79--81
 []\OT1/ptm/b/n/10 Financial\OT1/ptm/m/n/10 : posts from sub-red-dits that fall 
 into
  []
 
 
-Underfull \hbox (badness 1910) in paragraph at lines 73--75
+Underfull \hbox (badness 1910) in paragraph at lines 79--81
 \OT1/ptm/m/n/10 ful fi-nan-cial top-ics. Sub-red-dits from this cat-e-
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 110--128
+
+ []
+
+
+Underfull \hbox (badness 1281) in paragraph at lines 110--128
+\OT1/ptm/m/n/10 Primary job for an-no-ta-tors was to de-ter-mine if there
+ []
+
+
+Underfull \hbox (badness 1622) in paragraph at lines 110--128
+\OT1/ptm/m/n/10 The def-i-ni-tion for stress was taken from the Ox-ford
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 110--128
+
  []
 
 [1{C:/Users/lovro/AppData/Local/MiKTeX/fonts/map/pdftex/pdftex.map}{D:/Programs
@@ -300,136 +333,152 @@ Underfull \hbox (badness 1910) in paragraph at lines 73--75
 
 
 ]
-Underfull \hbox (badness 10000) in paragraph at lines 124--130
+Underfull \hbox (badness 10000) in paragraph at lines 130--140
 
  []
 
 
-LaTeX Warning: Citation `logreg' on page 2 undefined on input line 142.
-
-
-LaTeX Warning: Citation `turcan-mckeown-2019-dreaddit' on page 2 undefined on i
-nput line 143.
-
-
-LaTeX Warning: Citation `mikolov2013efficient' on page 2 undefined on input lin
-e 148.
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 142--151
+Underfull \hbox (badness 10000) in paragraph at lines 130--140
 
  []
 
 
-Underfull \hbox (badness 2158) in paragraph at lines 142--151
-\OT1/ptm/m/n/10 Logistic re-gres-sion model ex-pects a fixed size in-put
+Underfull \hbox (badness 1226) in paragraph at lines 130--140
+\OT1/ptm/m/n/10 We per-formed our train-ing on the whole dataset and
  []
 
 
-Underfull \hbox (badness 1910) in paragraph at lines 142--151
+Underfull \hbox (badness 1454) in paragraph at lines 130--140
+\OT1/ptm/m/n/10 our fo-cus wasn't to get the best pos-si-ble re-sults for
+ []
+
+<images/embeddings.png, id=9, 236.38312pt x 201.75375pt>
+File: images/embeddings.png Graphic file (type png)
+<use images/embeddings.png>
+Package pdftex.def Info: images/embeddings.png  used on input line 155.
+(pdftex.def)             Requested size: 244.69365pt x 208.85228pt.
+
+Overfull \hbox (8.96268pt too wide) in paragraph at lines 155--156
+ [][] 
+ []
+
+
+LaTeX Warning: `h' float specifier changed to `ht'.
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 159--169
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 159--169
+
+ []
+
+
+Underfull \hbox (badness 1242) in paragraph at lines 159--169
+\OT1/ptm/m/n/10 rep-re-sent words from our dataset as mul-ti-di-men-sional
+ []
+
+
+Underfull \hbox (badness 1910) in paragraph at lines 159--169
 \OT1/ptm/m/n/10 dataset and pro-duced 300-dimensional rep-re-sen-ta-tions.
  []
 
-
-LaTeX Warning: Citation `sanh2020distilbert' on page 2 undefined on input line 
-161.
-
-
-LaTeX Warning: Citation `vaswani2017attention' on page 2 undefined on input lin
-e 162.
+[2]
+Underfull \hbox (badness 3039) in paragraph at lines 179--188
+\OT1/ptm/m/n/10 learn-ing mod-els called trans-form-ers (Vaswani et al.,
+ []
 
 
-LaTeX Warning: Citation `devlin2019bert' on page 2 undefined on input line 167.
-
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 161--170
+Underfull \hbox (badness 10000) in paragraph at lines 179--188
 
  []
 
 
-Underfull \hbox (badness 2181) in paragraph at lines 161--170
+Underfull \hbox (badness 2181) in paragraph at lines 179--188
 \OT1/ptm/m/n/10 DistilBERT is a model sim-i-lar to the more pop-u-lar
  []
 
-
-Underfull \hbox (badness 1281) in paragraph at lines 161--170
-\OT1/ptm/m/n/10 Be-cause of its fea-tures and our lim-ited hard-ware we
- []
-
-
-Underfull \vbox (badness 2229) has occurred while \output is active []
-
- [2]
-<images/chat-gpt-prompt.png, id=12, 708.6475pt x 268.00125pt>
+<images/chat-gpt-prompt.png, id=14, 708.6475pt x 268.00125pt>
 File: images/chat-gpt-prompt.png Graphic file (type png)
 <use images/chat-gpt-prompt.png>
-Package pdftex.def Info: images/chat-gpt-prompt.png  used on input line 175.
+Package pdftex.def Info: images/chat-gpt-prompt.png  used on input line 203.
 (pdftex.def)             Requested size: 244.69365pt x 92.53822pt.
 
-Overfull \hbox (8.96268pt too wide) in paragraph at lines 175--176
+Overfull \hbox (8.96268pt too wide) in paragraph at lines 203--204
  [][] 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 211--220
+Underfull \hbox (badness 10000) in paragraph at lines 230--239
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 211--220
+Underfull \hbox (badness 10000) in paragraph at lines 230--239
 
  []
 
-<images/conf-matrix-chatgpt.png, id=14, 537.00626pt x 437.635pt>
+<images/conf-matrix-chatgpt.png, id=15, 537.00626pt x 437.635pt>
 File: images/conf-matrix-chatgpt.png Graphic file (type png)
 <use images/conf-matrix-chatgpt.png>
-Package pdftex.def Info: images/conf-matrix-chatgpt.png  used on input line 223
+Package pdftex.def Info: images/conf-matrix-chatgpt.png  used on input line 242
 .
 (pdftex.def)             Requested size: 244.69365pt x 199.41138pt.
 
-Overfull \hbox (8.96268pt too wide) in paragraph at lines 223--224
+Overfull \hbox (8.96268pt too wide) in paragraph at lines 242--243
  [][] 
  []
 
-<images/conf-matrix-logreg.png, id=15, 537.00626pt x 428.60126pt>
+<images/conf-matrix-logreg.png, id=16, 537.00626pt x 428.60126pt>
 File: images/conf-matrix-logreg.png Graphic file (type png)
 <use images/conf-matrix-logreg.png>
-Package pdftex.def Info: images/conf-matrix-logreg.png  used on input line 230.
+Package pdftex.def Info: images/conf-matrix-logreg.png  used on input line 249.
 
 (pdftex.def)             Requested size: 244.69365pt x 195.29509pt.
 
-Overfull \hbox (8.96268pt too wide) in paragraph at lines 230--231
+Overfull \hbox (8.96268pt too wide) in paragraph at lines 249--250
  [][] 
  []
 
-[3 <./images/chat-gpt-prompt.png> <./images/conf-matrix-chatgpt.png> <./images/
-conf-matrix-logreg.png>] (D:\Repos\TAR-projekt\paper\auxiliary\paper.bbl
+[3 <./images/embeddings.png> <./images/chat-gpt-prompt.png>]
+Underfull \vbox (badness 10000) has occurred while \output is active []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 275--281
+
+ []
+
+(D:\Repos\TAR-projekt\paper\auxiliary\paper.bbl
 Underfull \hbox (badness 1533) in paragraph at lines 29--33
 []\OT1/ptm/m/n/10 Victor Sanh, Lysan-dre De-but, Julien Chau-mond, and
  []
 
-
+[4 <./images/conf-matrix-chatgpt.png> <./images/conf-matrix-logreg.png>]
 Underfull \hbox (badness 1817) in paragraph at lines 45--49
 []\OT1/ptm/m/n/10 Ashish Vaswani, Noam Shazeer, Niki Par-mar, Jakob
  []
 
-) [4] (paper.aux) ) 
+) [5
+
+] (D:\Repos\TAR-projekt\paper\auxiliary\paper.aux) ) 
 Here is how much of TeX's memory you used:
- 4618 strings out of 476331
- 82176 string characters out of 5799959
+ 4712 strings out of 476331
+ 83879 string characters out of 5799959
  1871660 words of memory out of 5000000
- 25015 multiletter control sequences out of 15000+600000
+ 25104 multiletter control sequences out of 15000+600000
  525561 words of font info for 57 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
- 57i,10n,62p,550b,332s stack positions out of 10000i,1000n,20000p,200000b,200000s
-<D:/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmsy10.pf
-b><D:/Programs/MiKTeX/fonts/type1/urw/courier/ucrr8a.pfb><D:/Programs/MiKTeX/fo
-nts/type1/urw/times/utmb8a.pfb><D:/Programs/MiKTeX/fonts/type1/urw/times/utmr8a
-.pfb><D:/Programs/MiKTeX/fonts/type1/urw/times/utmri8a.pfb>
-Output written on paper.pdf (4 pages, 152608 bytes).
+ 57i,10n,62p,278b,332s stack positions out of 10000i,1000n,20000p,200000b,200000s
+<D:/Programs/MiKTeX/fonts/t
+ype1/public/amsfonts/cm/cmsy10.pfb><D:/Programs/MiKTeX/fonts/type1/urw/courier/
+ucrr8a.pfb><D:/Programs/MiKTeX/fonts/type1/urw/times/utmb8a.pfb><D:/Programs/Mi
+KTeX/fonts/type1/urw/times/utmr8a.pfb><D:/Programs/MiKTeX/fonts/type1/urw/times
+/utmri8a.pfb>
+Output written on paper.pdf (5 pages, 160682 bytes).
 PDF statistics:
- 48 PDF objects out of 1000 (max. 8388607)
+ 53 PDF objects out of 1000 (max. 8388607)
  0 named destinations out of 1000 (max. 500000)
- 16 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 21 words of extra memory for PDF output out of 10000 (max. 10000000)
 
