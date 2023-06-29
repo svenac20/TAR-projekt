@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.25 (MiKTeX 23.4) (preloaded format=pdflatex 2023.4.21)  4 JUN 2023 23:55
+This is pdfTeX, Version 3.141592653-2.6-1.40.25 (MiKTeX 23.4) (preloaded format=pdflatex 2023.4.21)  29 JUN 2023 23:44
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -333,11 +333,6 @@ Underfull \hbox (badness 1281) in paragraph at lines 114--132
  []
 
 
-Underfull \hbox (badness 1622) in paragraph at lines 114--132
-\OT1/ptm/m/n/10 The def-i-ni-tion for stress was taken from the Ox-ford
- []
-
-
 Underfull \hbox (badness 10000) in paragraph at lines 114--132
 
  []
@@ -353,6 +348,11 @@ Underfull \hbox (badness 10000) in paragraph at lines 134--144
  []
 
 
+Underfull \hbox (badness 1117) in paragraph at lines 134--144
+\OT1/ptm/m/n/10 et al., 2002) model which the au-thors of the dataset
+ []
+
+
 Underfull \hbox (badness 10000) in paragraph at lines 134--144
 
  []
@@ -360,11 +360,6 @@ Underfull \hbox (badness 10000) in paragraph at lines 134--144
 
 Underfull \hbox (badness 1226) in paragraph at lines 134--144
 \OT1/ptm/m/n/10 We per-formed our train-ing on the whole dataset and
- []
-
-
-Underfull \hbox (badness 1454) in paragraph at lines 134--144
-\OT1/ptm/m/n/10 our fo-cus wasn't to get the best pos-si-ble re-sults for
  []
 
 <images/embeddings.png, id=9, 236.38312pt x 201.75375pt>
@@ -438,21 +433,30 @@ Overfull \hbox (8.96268pt too wide) in paragraph at lines 251--252
  []
 
 [3 <./images/embeddings.png> <./images/chat-gpt-prompt.png>]
-Underfull \vbox (badness 10000) has occurred while \output is active []
+Underfull \vbox (badness 1173) has occurred while \output is active []
 
 
 Underfull \hbox (badness 10000) in paragraph at lines 277--285
 
  []
 
-(D:\Repos\TAR-projekt\paper\auxiliary\paper.bbl [4 <./images/conf-matrix-chatgp
-t.png> <./images/conf-matrix-logreg.png>]
-Underfull \hbox (badness 1533) in paragraph at lines 29--33
+(D:\Repos\TAR-projekt\paper\auxiliary\paper.bbl
+! Undefined control sequence.
+l.25 \newblock \url
+                   {https://www.openai.com/}.
+? 
+
+Underfull \hbox (badness 10000) in paragraph at lines 22--27
+[]\OT1/ptm/m/n/10 OpenAI.  2023.  Chat-GPT (Ver-sion 3.5).
+ []
+
+[4 <./images/conf-matrix-chatgpt.png> <./images/conf-matrix-logreg.png>]
+Underfull \hbox (badness 1533) in paragraph at lines 36--40
 []\OT1/ptm/m/n/10 Victor Sanh, Lysan-dre De-but, Julien Chau-mond, and
  []
 
 
-Underfull \hbox (badness 1817) in paragraph at lines 45--49
+Underfull \hbox (badness 1817) in paragraph at lines 52--56
 []\OT1/ptm/m/n/10 Ashish Vaswani, Noam Shazeer, Niki Par-mar, Jakob
  []
 
@@ -460,19 +464,19 @@ Underfull \hbox (badness 1817) in paragraph at lines 45--49
 
 ] (D:\Repos\TAR-projekt\paper\auxiliary\paper.aux) ) 
 Here is how much of TeX's memory you used:
- 4712 strings out of 476331
- 83879 string characters out of 5799959
+ 4715 strings out of 476331
+ 83921 string characters out of 5799959
  1871660 words of memory out of 5000000
- 25104 multiletter control sequences out of 15000+600000
+ 25107 multiletter control sequences out of 15000+600000
  525561 words of font info for 57 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
- 57i,10n,62p,278b,332s stack positions out of 10000i,1000n,20000p,200000b,200000s
+ 57i,10n,62p,279b,332s stack positions out of 10000i,1000n,20000p,200000b,200000s
 <D:/Programs/MiKTeX/fonts/t
 ype1/public/amsfonts/cm/cmsy10.pfb><D:/Programs/MiKTeX/fonts/type1/urw/courier/
 ucrr8a.pfb><D:/Programs/MiKTeX/fonts/type1/urw/times/utmb8a.pfb><D:/Programs/Mi
 KTeX/fonts/type1/urw/times/utmr8a.pfb><D:/Programs/MiKTeX/fonts/type1/urw/times
 /utmri8a.pfb>
-Output written on paper.pdf (5 pages, 160930 bytes).
+Output written on paper.pdf (5 pages, 162367 bytes).
 PDF statistics:
  53 PDF objects out of 1000 (max. 8388607)
  0 named destinations out of 1000 (max. 500000)

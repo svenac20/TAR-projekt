@@ -18,6 +18,13 @@ Tomas Mikolov, Kai Chen, Greg Corrado, and Jeffrey Dean.
 \newblock 2013.
 \newblock Efficient estimation of word representations in vector space.
 
+\bibitem[\protect\citename{OpenAI}2023]{openai2023}
+OpenAI.
+\newblock 2023.
+\newblock {ChatGPT (Version 3.5)}.
+\newblock \url{https://www.openai.com/}.
+\newblock [Software].
+
 \bibitem[\protect\citename{Peng \bgroup et al.\egroup }2002]{logreg}
 Joanne Peng, Kuk Lee, and Gary Ingersoll.
 \newblock 2002.
@@ -46,5 +53,16 @@ Ashish Vaswani, Noam Shazeer, Niki Parmar, Jakob Uszkoreit, Llion Jones,
   Aidan~N. Gomez, Lukasz Kaiser, and Illia Polosukhin.
 \newblock 2017.
 \newblock Attention is all you need.
+
+\bibitem[\protect\citename{Wolf \bgroup et al.\egroup
+  }2020]{wolf2020huggingfaces}
+Thomas Wolf, Lysandre Debut, Victor Sanh, Julien Chaumond, Clement Delangue,
+  Anthony Moi, Pierric Cistac, Tim Rault, Rémi Louf, Morgan Funtowicz, Joe
+  Davison, Sam Shleifer, Patrick von Platen, Clara Ma, Yacine Jernite, Julien
+  Plu, Canwen Xu, Teven~Le Scao, Sylvain Gugger, Mariama Drame, Quentin Lhoest,
+  and Alexander~M. Rush.
+\newblock 2020.
+\newblock Huggingface's transformers: State-of-the-art natural language
+  processing.
 
 \end{thebibliography}

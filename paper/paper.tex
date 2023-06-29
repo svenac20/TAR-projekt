@@ -43,7 +43,7 @@
 Stress is a very common feeling everyone experiences in a smaller or larger amount during their life.
 It negatively impacts our health and detecting it could enable us to help the person who is experiencing it and improve their existing situation.
 This paper will try to find the optimal approach of detecting stressful situations from user descriptions.
-For this task we will be using the Dreaddit dataset which contains user posts from the Reddit website.
+For this task we will be using the Dreaddit dataset~\citep{turcan-mckeown-2019-dreaddit} which contains user posts from the Reddit website.
 Throughout this paper we will be referencing the original one where the dataset was introduced.
 \hfill \break
 \hfill \break
@@ -60,7 +60,7 @@ They focused on developing the dataset as well as testing how different models s
 
 \section{Dataset}
 
-The dataset that is used in this paper was introduced in a paper which collected posts from a social media webside called Reddit~\citep{turcan-mckeown-2019-dreaddit}.
+The dataset that is used in this paper was introduced in a paper which collected posts from a webside Reddit~\citep{turcan-mckeown-2019-dreaddit}.
 On that website users can create posts in communities which focus on specific topics called subreddits.
 \hfill \break
 \hfill \break
@@ -70,7 +70,7 @@ These subreddits fall into one of these categories:
 
 \begin{itemize}
     \item \textbf{Social}: The posts from this category are from the subreddit called \verb|r/relationships|.
-        Posts from this subreddit talk about problems in a relationships, romantic or non-romantic.
+        Posts from this subreddit talk about problems in relationships, romantic or non-romantic.
     \item \textbf{Abuse}: posts from this category describe topics related to abuse in relationships and users share their experiences and advices.
         Subreddits that fall into this category are \verb|r/domesticviolence| and \verb|r/survivorofabuse|.
     \item \textbf{Anxiety}: subreddits from this category are \verb|r/anxiety| and \verb|r/stress|.
@@ -81,7 +81,7 @@ These subreddits fall into one of these categories:
         Subreddits from this category are \verb|r/almosthomeless|, \verb|r/assistance|, \verb|r/food_pantry| and \verb|r/homeless|.
 \end{itemize}
 
-In the dataset there are in total 187,444 posts from these 10 subreddits.
+In the dataset there are 187,444 posts in total from these 10 subreddits.
 The distribution of these posts can be seen in the Table~\ref{tab:dataset-distribution}.
 
 \begin{table*}
@@ -115,7 +115,7 @@ A portion of the data was annotated using Amazon Mechanical Turk, a crowdsourcin
 \hfill \break
 \hfill \break
 Primary job for annotators was to determine if there was stress present in the sentence that they were presented.
-The definition for stress was taken from the Oxford English Dictionary states that stress is `a state of mental or emotional strain or tension resulting from adverse or demanding circumstance'.
+The definition for stress which was taken from the Oxford English Dictionary states that stress is `a state of mental or emotional strain or tension resulting from adverse or demanding circumstance'.
 Each annotator first had to take a qualification test to ensure that they would label the sentences correctly.
 In the qualification test annotators were given instructions on how to correctly label post segments.
 After that, each annotator was given 5 segments which they had to annotate with one of the following labels: ``Stress'', ``Not Stress'' or ``Can't Tell''.
@@ -134,24 +134,24 @@ The train subset contains 2,838 data points and the test subset consists of 715 
 Motivated by the results of the aforementioned paper, our approach focused on three different models which solve the given classification problem.
 \hfill \break
 \hfill \break
-Firstly we will introduce the \textbf{logistic regression} model which the authors of the dataset presented as the best solution, excluding state-of-the-art (SOTA) solutions such as BERT.
+Firstly we will introduce the \textbf{logistic regression}~\citep{logreg} model which the authors of the dataset presented as the best solution, excluding state-of-the-art (SOTA) solutions such as BERT~\citep{devlin2019bert}.
 This model is going to represent a simple model approach to the problem without using more complex solutions such as transformers.
-Then we are going to introduce two transformer approaches, one being \textbf{DistilBERT} and the other one, currently very popular, \textbf{Chat GPT 3.5 Turbo}.
+Then we are going to introduce two transformer approaches, one being \textbf{DistilBERT}~\citep{sanh2020distilbert} and the other one, currently very popular, \textbf{Chat GPT 3.5 Turbo}~\citep{openai2023}.
 \hfill \break
 \hfill \break
-We performed our training on the whole dataset and our focus wasn't to get the best possible results for each model but to compare them and find out which is best suited for the given classification task (taking into account the cost of the model).
-Because of that reason, we also didn't remove lower agreement rate examples from our training dataset to enable our models to handle even the harder examples which are inevitable in the real applications.
+We performed our training on the whole dataset and our focus was not to get the best possible results for each model but to compare them and find out which is best suited for the given classification task (taking into account the cost of the model).
+Because of that reason, we also did not remove lower agreement rate examples from our training dataset to enable our models to handle even the harder examples which are inevitable in the real applications.
 
 \subsection{Preprocessing}
 Before we trained our models we needed to do some form of preprocessing on our data.
 This step is important because it enables adequate learning from the training set.
-Given the dataset already contained pretty clean and structured data, we didn't need to do a lot of preprocessing to get the desired results.
+Given the dataset already contained pretty clean and structured data, we did not need to do a lot of preprocessing to get the desired results.
 We started with the basic stop word removal, followed by digit and punctuation removal.
 Then we performed lemmatization which enabled us to properly train the word embeddings for the logistic regression model and tokenizer for the DistilBERT model.
 
 \subsection{Logistic regression}
 Logistic regression~\citep{logreg} is a commonly used machine learning model which can be used for binary classification problem.
-This is a simple model which doesn't require long and expensive training, so, inspired by the great results that this model showed in the original paper (F-score of 79.8 ~\citep{turcan-mckeown-2019-dreaddit}), we have also decided to
+This is a simple model which does not require long and expensive training, so, inspired by the great results that this model showed in the original paper (F-score of 79.8 ~\citep{turcan-mckeown-2019-dreaddit}), we have also decided to
 include it in our own research.
 
 \begin{figure}[h]
@@ -186,16 +186,16 @@ Self-attention allows the model to find the importance of each word in a sequenc
 \hfill \break
 DistilBERT is a model similar to the more popular BERT~\citep{devlin2019bert}, but faster and more lightweight while still preserving almost all the capabilities of the larger model.
 Because of its features and our limited hardware we decided it would be the best option for representing current SOTA solution in the field of transformers.
-Model and tokenizer were trained simultaneously on the whole training set using the implementations from the \textit{HuggingFace} library.
+Model and tokenizer were trained simultaneously on the whole training set using the implementations from the \textit{HuggingFace} library~\citep{wolf2020huggingfaces}.
 
 
 
 
 
 \subsection{Chat GPT 3.5 Turbo}
-The final model that we used in our research was Chat GPT 3.5 Turbo.
+The final model that we used in our research was Chat GPT 3.5 Turbo~\citep{openai2023}.
 This model was developed by OpenAI and it aims to generate human like responses based on the provided input text.
-We couldn't perform direct training on this model, but instead we used the provided API to prompt the model to give us the classification result for each example in the test set.
+We could not perform direct training on this model, but instead we used the provided API to prompt the model to give us the classification result for each example in the test set.
 You can see how we formulated our prompt in figure~\ref{fig:chat-gpt-prompt}.
 
 It must be mentioned that there was some manual data cleanup needed after we got the responses from the API, such as explanations behind the given results that were contained in the labels.
@@ -231,7 +231,7 @@ This simple model, however, performs much better when we introduce TF-IDF averag
 \subsection{LR(TF-IDF averaging) vs DistilBERT}
 LR model with TF-IDF averaging performed very similarly to the DistilBERT approach.
 Transformers are currently SOTA approach in NLP and we expect them to perform much better than the simpler models.
-However, classifying stress, using this pretty clean dataset, isn't a particularly hard task and our logistic regression model deals very well with the problem, which is also what authors of the original dataset pointed out.
+However, classifying stress, using this pretty clean dataset, is not a particularly hard task and our logistic regression model deals very well with the problem, which is also what authors of the original dataset pointed out.
 \hfill \break
 \hfill \break
 Here we compared only the results of the two models not taking into account the cost of the more complex model.
@@ -256,7 +256,7 @@ This leads us to the conclusion that sometimes the solution to the problem could
 
 \subsection{DistilBERT vs Chat GPT}
 In our two transformer approaches Chat GPT showed much better results.
-What shows the true power of this transformer model is that, even though it wasn't strictly trained on the training data, it managed to outperform DistilBERT model.
+What shows the true power of this transformer model is that, even though it was not strictly trained on the training data, it managed to outperform DistilBERT model.
 As we can see in figure~\ref{fig:chat-gpt-conf-matrix} this model managed to have an extremely low number of false negative (FN) predictions.
 In certain cases we would want to prefer this behaviour where not detecting stress represents a big problem.
 
@@ -266,20 +266,20 @@ Chat GPT API is a paid service and if we want to use this approach in for stress
 \subsection{LR (TF-IDF) vs Chat GPT}
 We can see that Chat GPT performed better than our LR model when we compare their F1 scores.
 The change comes primarily from the higher recall score which Chat GPT manages to achieve (less false negative examples).
-While we can look at the scores by themselves and conclude that Chat GPT is a better model for the given task, this approach doesn't take into account the cost of the model.
+While we can look at the scores by themselves and conclude that Chat GPT is a better model for the given task, this approach does not take into account the cost of the model.
 
 Our simpler LR model achieves comparable results to the SOTA solution and we claim that it is the optimal approach for solving stress classification problem from the given dataset.
 Model is easy to learn and could even get better results if it was trained on the dataset which contained examples with higher agreement factor, as it was shown from the authors of the dataset.
 
-If we have more resources and a bigger budget, Chat GPT with its powerful API service could be a better choice, mainly because it rarely doesn't detect stress which could definitely help in certain situations.
+If we have more resources and a bigger budget, Chat GPT with its powerful API service could be a better choice, mainly because it rarely does not detect stress which could definitely help in certain situations.
 \section{Conclusion}
 
 In this paper we looked at different approaches for detecting stress from the Dreaddit dataset.
 We continued our research on findings of the authors and tried to find out if more complex models and solutions gave better results.
 \hfill \break
 \hfill \break
-We believe that the simple model solves this problem well enough and that more complex and expensive transformer solutions aren't worth the extra cost.
-In some rare cases, where not detecting stress could pose a problem, we can suggest trying the Chat GPT API service if the demand isn't high and the budget isn't limited.
+We believe that the simple model solves this problem well enough and that more complex and expensive transformer solutions are not worth the extra cost.
+In some rare cases, where not detecting stress could pose a problem, we can suggest trying the Chat GPT API service if the demand is not high and the budget is not limited.
 Transformers may be a better option if we just look at their capabilities, but at what cost?
 Sometimes the simpler solution gets the job done and we should stick to it.
 
