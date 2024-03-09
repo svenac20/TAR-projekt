@@ -3,7 +3,7 @@
 Project for subject Text analysis and retreival.
 Topic for the project is **Stress Analysis in Social media**
 
-Main paper regarding this topic is located at: <https://aclanthology.org/D19-6213.pdf>
+Final research paper can be found at: <https://github.com/svenac20/TAR-projekt/blob/main/paper/paper.pdf>
 
 ## Other realted papers
 
