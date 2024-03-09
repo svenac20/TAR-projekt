@@ -67,6 +67,6 @@ Social media features
 
 ## Results
 
-Results
+In this paper we looked at different approaches for detecting stress from the Dreaddit dataset. We continued our research on findings of the authors and tried to find out if more complex models and solutions gave better results.
 
-
+We believe that the simple model solves this problem well enough and that more complex and expensive transformer solutions are not worth the extra cost. In some rare cases, where not detecting stress could pose a problem, we can suggest trying the Chat GPT API service if the demand is not high and the budget is not limited. Transformers may be a better option if we just look at their capabilities, but at what cost? Sometimes the simpler solution gets the job done and we should stick to it.
